@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Public Bus Route</string>
+    <string name="title_activity_map_passenger">Map</string>
+</resources>
