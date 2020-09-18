@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class DriverRegister extends AppCompatActivity {
 
@@ -28,6 +29,7 @@ public class DriverRegister extends AppCompatActivity {
         ebtnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(DriverRegister.this, "You have successfully register!", Toast.LENGTH_SHORT).show();
                 String s1 = eDriverName.getText().toString();
                 String s2 = eDriverEmail.getText().toString();
                 String s3 = eDriverID.getText().toString();

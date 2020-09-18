@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    //Image Background
+
+        //Image Background
         ImageView rapid = findViewById(R.id.picRapid);
         ImageView mrt = findViewById(R.id.picMRT);
     }
